@@ -81,7 +81,7 @@ include("language.php");
 -            Menu
 -          </button><table><tr><td>
           <a id="open-left"></a></td><td>
-          <i class="navbar-brand">osm24.eu</i></td></tr></table>
+          <i class="navbar-brand">mapa.16mb.com</i></td></tr></table>
         </div>
         <div class="collapse navbar-collapse global-menu-data">
           <ul class="nav navbar-nav">
