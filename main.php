@@ -333,7 +333,7 @@ include("language.php");
               <ul class="dropdown-menu select-one dropdown-menu-long tag-parent">
                 <li><a id="store_all" data-tag-pair="[shop]@[amenity='pharmacy']@[office=travel_agency]@[amenity='fuel']" data-tag-type="main"><?php echo PANEL_STORE_ALL;?></a></li>
                 <li class="divider"></li>
-                <li><a id="store_alcohol" data-tag-pair="[shop=alcohol]@[shop][craft=beer]" data-tag-type="main"><?php echo PANEL_STORE_ALCOHOL;?></a></li>
+                <li><a id="store_alcohol" data-tag-pair="[shop=alcohol]@[craft=beer]" data-tag-type="main"><?php echo PANEL_STORE_ALCOHOL;?></a></li>
                 <li><a id="store_art" data-tag-pair="[shop=art]@[shop=music]" data-tag-type="main"><?php echo PANEL_STORE_ART;?></a></li>
                 <li><a id="store_clothes" data-tag-pair="[shop=clothes]@[shop=shoes]@[shop=second_hand]" data-tag-type="main"><?php echo PANEL_STORE_CLOTHES;?></a></li>
                 <li><a id="store_food" data-tag-pair="[shop=supermarket]@[shop=bakery]@[shop=butcher]@[shop=convenience]@[shop=farm]@[shop=greengrocer]@[shop=seafood]@[shop=confectionery]" data-tag-type="main"><?php echo PANEL_STORE_FOOD;?></a></li>
