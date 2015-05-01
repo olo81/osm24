@@ -340,23 +340,7 @@ include("language.php");
                 <li><a id="store_electronic" data-tag-pair="[shop='computer']@[shop=mobile_phone]@[shop=electronics]" data-tag-type="main"><?php echo PANEL_STORE_ELECTRONIC;?></a></li>
                 <li><a id="store_health" data-tag-pair="[amenity='pharmacy']@[shop=chemist]@[shop=hairdresser]@[shop=beauty]" data-tag-type="main"><?php echo PANEL_STORE_HEALTH_AND_BEAUTY;?></a></li>
                 <li><a id="store_transport" data-tag-pair="[shop=car]@[shop=bicycle]@[shop=motorcycle]@[shop=tyres]@[amenity='fuel']" data-tag-type="main"><?php echo PANEL_STORE_TRANSPORT;?></a></li>
-                <li><a id="store_travel" data-tag-pair="[shop=travel_agency]@[office=travel_agency]" data-tag-type="main"><?php echo PANEL_STORE_TRAVEL;?></a></li>
-              </ul>
-            </li>
-
-            <li style="display:none;" class="dropdown  btn-group btn-group-own  visible-historic">
-              <a class="dropdown-toggle btn-select tag-default" id="historic" data-toggle="dropdown" data-default-id="historic_all" data-arrow><?php echo PANEL_STORE;?><span class="caret"></span></a>
-              <ul class="dropdown-menu select-one dropdown-menu-long tag-parent">
-                <li><a id="historic_all" data-tag-pair="[historic]@[amenity='pharmacy']@[office=travel_agency]@[amenity='fuel']" data-tag-type="main"><?php echo PANEL_STORE_ALL;?></a></li>
-                <li class="divider"></li>
-                <li><a id="historic_cemetery" data-tag-pair="[landuse=cemetery]@[historic]['alcohol'='yes']" data-tag-type="main"><?php echo PANEL_STORE_ALCOHOL;?></a></li>
-                <li><a id="store_art" data-tag-pair="[shop=art]@[shop=music]" data-tag-type="main"><?php echo PANEL_STORE_ART;?></a></li>
-                <li><a id="store_clothes" data-tag-pair="[shop=clothes]@[shop=shoes]@[shop=second_hand]" data-tag-type="main"><?php echo PANEL_STORE_CLOTHES;?></a></li>
-                <li><a id="store_food" data-tag-pair="[shop=supermarket]@[shop=bakery]@[shop=butcher]@[shop=convenience]@[shop=farm]@[shop=greengrocer]@[shop=seafood]@[shop=confectionery]" data-tag-type="main"><?php echo PANEL_STORE_FOOD;?></a></li>
-                <li><a id="store_electronic" data-tag-pair="[shop='computer']@[shop=mobile_phone]@[shop=electronics]" data-tag-type="main"><?php echo PANEL_STORE_ELECTRONIC;?></a></li>
-                <li><a id="store_health" data-tag-pair="[amenity='pharmacy']@[shop=chemist]@[shop=hairdresser]@[shop=beauty]" data-tag-type="main"><?php echo PANEL_STORE_HEALTH_AND_BEAUTY;?></a></li>
-                <li><a id="store_transport" data-tag-pair="[shop=car]@[shop=bicycle]@[shop=motorcycle]@[shop=tyres]@[amenity='fuel']" data-tag-type="main"><?php echo PANEL_STORE_TRANSPORT;?></a></li>
-                <li><a id="store_travel" data-tag-pair="[shop=travel_agency]@[office=travel_agency]" data-tag-type="main"><?php echo PANEL_STORE_TRAVEL;?></a></li>
+                <li><a id="store_travel" data-tag-pair="[landuse=cementary]" data-tag-type="main"><?php echo PANEL_STORE_TRAVEL;?></a></li>
               </ul>
             </li>
 
