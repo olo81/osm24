@@ -1,14 +1,14 @@
 <?php
 //PANELS
-define('PANEL_EAT','Food');
-define('PANEL_PARTY','Fun');
-define('PANEL_BUY','Shop');
+define('PANEL_EAT','Jedzenie');
+define('PANEL_PARTY','Zabawa');
+define('PANEL_BUY','Sklepy');
 define('PANEL_EXERCISE','Sport');
-define('PANEL_OFFICE','Office');
+define('PANEL_OFFICE','Bióra');
 define('PANEL_CRAFT','Craft');
 define('PANEL_NEED','Needs');
 define('PANEL_EMERGENCY', 'Emergency');
-define('PANEL_MONEY','Money');
+define('PANEL_MONEY','Bankowość');
 define('PANEL_ALL', 'All');
 
 define('PANEL_CUISINE','Cuisine');
