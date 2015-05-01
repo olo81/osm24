@@ -340,7 +340,7 @@ include("language.php");
                 <li><a id="store_electronic" data-tag-pair="[shop='computer']@[shop=mobile_phone]@[shop=electronics]" data-tag-type="main"><?php echo PANEL_STORE_ELECTRONIC;?></a></li>
                 <li><a id="store_health" data-tag-pair="[amenity='pharmacy']@[shop=chemist]@[shop=hairdresser]@[shop=beauty]" data-tag-type="main"><?php echo PANEL_STORE_HEALTH_AND_BEAUTY;?></a></li>
                 <li><a id="store_transport" data-tag-pair="[shop=car]@[shop=bicycle]@[shop=motorcycle]@[shop=tyres]@[amenity='fuel']" data-tag-type="main"><?php echo PANEL_STORE_TRANSPORT;?></a></li>
-                <li><a id="store_travel" data-tag-pair="[landuse=cemetery]" data-tag-type="main"><?php echo PANEL_STORE_TRAVEL;?></a></li>
+                <li><a id="store_travel" data-tag-pair="[landuse=cemetery]@[amenity=grave_yard]" data-tag-type="main"><?php echo PANEL_STORE_TRAVEL;?></a></li>
               </ul>
             </li>
 
