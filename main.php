@@ -13,7 +13,7 @@ include("language.php");
 
     <link rel="shortcut icon" href="../../assets/ico/favicon.png">
 
-    <title>osm24.eu</title>
+    <title>mapa.16mb.com</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/leaflet.css" />
     <link rel="stylesheet" href="css/MarkerCluster.css"/>
